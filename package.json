@@ -1,0 +1,123 @@
+{
+  "_from": "node-red-contrib-cloud-firestore",
+  "_id": "node-red-contrib-cloud-firestore@1.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-OhxunIQshdgnrINEtTK/sMLcC2m/bgmQG5MALvyrz8oUW2VPaaiwQ6V8TLD+2Ulepvey87+JmyBE9gWmVP0kYg==",
+  "_location": "/node-red-contrib-cloud-firestore",
+  "_phantomChildren": {
+    "@firebase/app": "0.3.16",
+    "@firebase/database": "0.3.19",
+    "@google-cloud/paginator": "0.2.0",
+    "@google-cloud/projectify": "0.3.3",
+    "@google-cloud/promisify": "0.4.0",
+    "@grpc/grpc-js": "0.3.6",
+    "@types/caseless": "0.12.2",
+    "@types/form-data": "2.2.1",
+    "@types/tough-cookie": "2.3.5",
+    "arrify": "1.0.1",
+    "base64-js": "1.3.0",
+    "buffer-from": "1.1.1",
+    "bun": "0.0.12",
+    "compressible": "2.0.17",
+    "date-and-time": "0.6.3",
+    "deep-equal": "1.0.1",
+    "dicer": "0.3.0",
+    "dot-prop": "4.2.0",
+    "duplexify": "3.7.1",
+    "ent": "2.2.0",
+    "event-target-shim": "5.0.1",
+    "extend": "3.0.2",
+    "fast-text-encoding": "1.0.0",
+    "functional-red-black-tree": "1.0.1",
+    "gaxios": "1.8.4",
+    "graceful-fs": "4.1.15",
+    "grpc": "1.20.0",
+    "grpc-gcp": "0.1.1",
+    "gtoken": "2.3.3",
+    "hash-stream-validation": "0.2.1",
+    "https-proxy-agent": "2.2.1",
+    "inherits": "2.0.3",
+    "is-stream-ended": "0.1.4",
+    "json-bigint": "0.3.0",
+    "jsonwebtoken": "8.1.0",
+    "jws": "3.2.2",
+    "lodash": "4.17.11",
+    "lodash.at": "4.6.0",
+    "lodash.camelcase": "4.3.0",
+    "lodash.has": "4.5.2",
+    "lodash.merge": "4.6.1",
+    "lru-cache": "5.1.1",
+    "make-dir": "1.3.0",
+    "mime-types": "2.1.24",
+    "node-forge": "0.7.4",
+    "onetime": "5.1.0",
+    "protobufjs": "6.8.8",
+    "pumpify": "1.5.1",
+    "retry-request": "4.0.0",
+    "snakeize": "0.1.0",
+    "stream-events": "1.0.5",
+    "string_decoder": "1.1.1",
+    "teeny-request": "3.11.3",
+    "through2": "3.0.1",
+    "typedarray": "0.0.6",
+    "unique-string": "1.0.0",
+    "util-deprecate": "1.0.2",
+    "write-file-atomic": "2.4.2",
+    "xdg-basedir": "3.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "node-red-contrib-cloud-firestore",
+    "name": "node-red-contrib-cloud-firestore",
+    "escapedName": "node-red-contrib-cloud-firestore",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-cloud-firestore/-/node-red-contrib-cloud-firestore-1.4.1.tgz",
+  "_shasum": "5264fd96844fd52b3ef04111dd04c36611fcbdf8",
+  "_spec": "node-red-contrib-cloud-firestore",
+  "_where": "/Users/rein/.node-red",
+  "author": {
+    "name": "Mecolela Sichangi"
+  },
+  "bugs": {
+    "url": "https://github.com/Sichangi/node-red-contrib-cloud-firestore/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "firebase": "^5.10.1"
+  },
+  "deprecated": false,
+  "description": "Node-RED nodes to handle google cloud firestore read and write operations",
+  "homepage": "https://github.com/Sichangi/node-red-contrib-cloud-firestore#readme",
+  "keywords": [
+    "firestore",
+    "firebase",
+    "node",
+    "node-red",
+    "google"
+  ],
+  "license": "MIT",
+  "name": "node-red-contrib-cloud-firestore",
+  "node-red": {
+    "nodes": {
+      "firebaseAdmin": "src/admin/firebaseAdmin.js",
+      "firestoreIn": "src/Read/Read.js",
+      "firestoreOut": "src/Write/Write.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sichangi/node-red-contrib-cloud-firestore.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.4.1"
+}
