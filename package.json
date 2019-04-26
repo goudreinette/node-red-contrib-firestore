@@ -3,7 +3,7 @@
     "name": "Rein van der Woerd"
   },
   "bugs": {
-    "url": "https://github.com/Sichangi/node-red-contrib-cloud-firestore/issues"
+    "url": "https://github.com/reinvdwoerd/node-red-contrib-firestore/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -12,7 +12,7 @@
   },
   "deprecated": false,
   "description": "Node-RED nodes to handle google cloud firestore read and write operations",
-  "homepage": "https://github.com/Sichangi/node-red-contrib-cloud-firestore#readme",
+  "homepage": "https://github.com/reinvdwoerd/node-red-contrib-firestore#readme",
   "keywords": [
     "firestore",
     "firebase",
@@ -21,7 +21,7 @@
     "google"
   ],
   "license": "MIT",
-  "name": "node-red-contrib-cloud-firestore",
+  "name": "node-red-contrib-firestore",
   "node-red": {
     "nodes": {
       "firebaseAdmin": "src/admin/firebaseAdmin.js",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sichangi/node-red-contrib-cloud-firestore.git"
+    "url": "git+https://github.com/reinvdwoerd/node-red-contrib-firestore.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
-  "version": "1.5.0"
+  "version": "1.0.0"
 }
