@@ -2,10 +2,6 @@ const {objectTypeOf} = require('../utils')
 
 class FirestoreReadNode {
   constructor(config) {
-    if (!config.admin) {
-      throw "No firebase admin specified";
-    }
-
     if (!config.collection) {
       throw 'FireStore collection Not Present';
     }

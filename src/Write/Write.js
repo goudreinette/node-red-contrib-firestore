@@ -8,10 +8,6 @@ function validateNodeConfig(n){
   if (!n.operation){
     throw "No operation specified";
   }
-
-  if (!n.admin) {
-    throw "No admin specified";
-  }
 }
 
 module.exports = function(RED) {

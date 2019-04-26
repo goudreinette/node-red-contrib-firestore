@@ -7,7 +7,8 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "firebase": "^5.10.1"
+    "firebase": "^5.10.1",
+    "relaxed-json": "^1.0.3"
   },
   "deprecated": false,
   "description": "Node-RED nodes to handle google cloud firestore read and write operations",
